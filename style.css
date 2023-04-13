@@ -226,12 +226,12 @@ li.nav-item.active {
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width:992px) {
     ul.navbar-nav {
         gap: 10px;
     }
     .services h3 {
-        font-size: 16px;
+        font-size: 16px !important;
     }
     .sell h2 {
         font-size: 16px !important;
